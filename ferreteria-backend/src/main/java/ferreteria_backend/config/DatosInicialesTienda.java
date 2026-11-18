@@ -1,12 +1,13 @@
 package ferreteria_backend.config;
 
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
 import ferreteria_backend.model.Categoria;
 import ferreteria_backend.model.Producto;
 import ferreteria_backend.repository.CategoriaRepository;
 import ferreteria_backend.repository.ProductoRepository;
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class DatosInicialesTienda {
